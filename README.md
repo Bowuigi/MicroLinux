@@ -1,7 +1,7 @@
 # MicroLinux
 Very small Linux distro
 
-Currently at 17.9MB!
+Currently at 15.4MB!
 
 Run instructions
 ---

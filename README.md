@@ -21,6 +21,18 @@ cd MicroLinux
 sh runmicrolinux.sh
 ```
 
+Getting the source files
+---
+
+```sh
+mkdir output
+mv initramfs.cpio.gz output/
+cd output/
+gunzip initramfs.cpio.gz
+sudo cpio -idv < initramfs.cpio
+rm initramfs.cpio
+```
+
 Notes
 ---
 This distro aims to be as small as possible while being usable.
